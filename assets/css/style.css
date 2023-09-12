@@ -1,14 +1,4 @@
-/**
-* Template Name: SoftLand
-* Updated: May 30 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/softland-bootstrap-app-landing-page-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 
 
 
@@ -944,7 +934,7 @@ section {
 # Hero Section
 --------------------------------------------------------------*/
 .hero-section {
-  background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../img/hero-bg.jpg);
+  background: url(../img/howtoplay2.jpg);
   position: relative;
 }
 

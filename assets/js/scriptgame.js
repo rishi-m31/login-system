@@ -1,12 +1,12 @@
 const bitcoins = [
-  { name: "Bitcoin", value: 50, image:"file:///C:/wamp64/www/login/login%20system/assets/images/coin-1.svg" },
-  { name: "Ethereum", value: 300, image: "file:///C:/wamp64/www/login/login%20system/assets/images/coin-2.svg" },
-  { name: "Tether", value: 150, image: "file:///C:/wamp64/www/login/login%20system/assets/images/coin-3.svg" },
-  { name: "BNB", value: 80, image: "file:///C:/wamp64/www/login/login%20system/assets/images/coin-4.svg"},
-  { name: "Solana", value: 120, image: "file:///C:/wamp64/www/login/login%20system/assets/images/coin-5.svg" },
-  { name: "XRP", value: 90, image: "file:///C:/wamp64/www/login/login%20system/assets/images/coin-6.svg" },
-  { name: "Cardano", value: 250, image: "file:///C:/wamp64/www/login/login%20system/assets/images/coin-7.svg" },
-  { name: "Avalanche", value: 30, image: "file:///C:/wamp64/www/login/login%20system/assets/images/coin-8.svg"},
+  { name: "Bitcoin", value: 50, image:"file:///C:/wamp64/www/login/login%20system/assets/img/coin-1.svg" },
+  { name: "Ethereum", value: 300, image: "file:///C:/wamp64/www/login/login%20system/assets/img/coin-2.svg" },
+  { name: "Tether", value: 150, image: "file:///C:/wamp64/www/login/login%20system/assets/img/coin-3.svg" },
+  { name: "BNB", value: 80, image: "file:///C:/wamp64/www/login/login%20system/assets/img/coin-4.svg"},
+  { name: "Solana", value: 120, image: "file:///C:/wamp64/www/login/login%20system/assets/img/coin-5.svg" },
+  { name: "XRP", value: 90, image: "file:///C:/wamp64/www/login/login%20system/assets/img/coin-6.svg" },
+  { name: "Cardano", value: 250, image: "file:///C:/wamp64/www/login/login%20system/assets/img/coin-7.svg" },
+  { name: "Avalanche", value: 30, image: "file:///C:/wamp64/www/login/login%20system/assets/img/coin-8.svg"},
   
 ];
 

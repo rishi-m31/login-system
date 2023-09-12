@@ -28,13 +28,7 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- =======================================================
-  * Template Name: SoftLand
-  * Updated: May 30 2023 with Bootstrap v5.3.0
-  * Template URL: https://bootstrapmade.com/softland-bootstrap-app-landing-page-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
 </head>
 
 <body>
@@ -46,7 +40,7 @@
             <div class="logo">
                 <!--<h1><a href="index.html">Coin Fusion</a></h1>-->
                 <!-- Uncomment below if you prefer to use an image logo -->
-                <a href="team.html"><img src="images/logo2.png.jpg" alt="" class="img-fluid"></a>
+                <a href="team.html"><img src="assets/img/logo2.png.jpg" alt="" class="img-fluid"></a>
             </div>
 
             <nav id="navbar" class="navbar">
@@ -54,40 +48,38 @@
                     <li><a class="active " href="user_page.html">Home</a></li>
                     <li><a href="howtoplay.html">How to play?</a></li>
                     <li><a href="game2.html">Game</a></li>
-                    <li><a href="market.html">Market</a></li> <!--add it html-->
+                    <li><a href="market.html">Market</a></li> 
                     <li><a href="team.html">Team</a></li>
                     <li><a href="contact.html">Feedback</a></li>
                 </ul>
-                <img src="images/profile.png" class="profile-pic" onclick="toggleMenu()">
+                <i class="bi bi-list mobile-nav-toggle"></i>
+                <img src="assets/img/profile.png" class="profile-pic" onclick="toggleMenu()">
                 <!-- <i class="bi bi-list mobile-nav-toggle"></i>-->
-
+        
                 <div class="sub-menu-wrap" id="subMenu">
-                    <div class="sub-menu">
-                        <div class="user-info">
-                            <img src="images/profile.png">
-                            <h4>Welcome, <span>
-                                    <?php echo $_SESSION['user_name'] ?>
-                                </span></h4>
-
+                  <div class="sub-menu">
+                    <div class="user-info">
+                      <img src="assets/img/profile.png">
+                      <h3>Welcome</h3>
                         </div>
                         <hr>
                         <a href="#" class="sub-menu-link">
-                            <img src="images/profile.png">
+                            <img src="assets/img/profile.png">
                             <p>Edit Profile</p>
                             <span>></span>
                         </a>
-                        <a href="#" class="sub-menu-link">
-                            <img src="images/setting.png">
+                        <a href="privacy.html" class="sub-menu-link">
+                            <img src="assets/img/setting.png">
                             <p>Settings & Privacy</p>
                             <span>></span>
                         </a>
                         <a href="#" class="sub-menu-link">
-                            <img src="images/help.png">
+                            <img src="assets/img/help.png">
                             <p>Help & Support</p>
                             <span>></span>
                         </a>
                         <a href="logout.php" class="sub-menu-link">
-                            <img src="images/logout.png">
+                            <img src="assets/img/logout.png">
                             <p>Log out</p>
                             <span>></span>
                         </a>
@@ -107,7 +99,8 @@ header('location:login_form.php');
                     </div>
                 </div>
 
-            </nav><!-- .navbar -->
+            </nav>
+            <!-- .navbar -->
             <script>
                 let subMenu = document.getElementById("subMenu");
 
@@ -123,22 +116,11 @@ header('location:login_form.php');
     <!-- ======= Hero Section ======= -->
     <section class="hero-section" id="hero">
 
-        <!--<div class="wave">
 
-      <svg width="100%" height="355px" viewBox="0 0 1920 355" version="1.1" xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink">
-        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-          <g id="Apple-TV" transform="translate(0.000000, -402.000000)" fill="#FFFFFF">
-            <path
-              d="M0,439.134243 C175.04074,464.89273 327.944386,477.771974 458.710937,477.771974 C654.860765,477.771974 870.645295,442.632362 1205.9828,410.192501 C1429.54114,388.565926 1667.54687,411.092417 1920,477.771974 L1920,757 L1017.15166,757 L0,757 L0,439.134243 Z"
-              id="Path"></path>
-          </g>
-        </g>
-      </svg>-->
         <!-- The video -->
 
         <video autoplay muted loop id="myVideo">
-            <source src="images/home6.mp4" type="video/mp4">
+            <source src="assets/img/home6.mp4" type="video/mp4">
         </video>
         </div>
         <div class="container">
@@ -177,7 +159,7 @@ header('location:login_form.php');
                             <div class="wrap-icon icon-1">
 
                             </div>
-                            <img class="circular--square" src="images/wallet.jpg" />
+                            <img class="circular--square" src="assets/img/wallet.jpg" />
                             <h3 style="color: aliceblue;">Wallet protection</h3>
                             <p>For added security. Store your funds in your wallet.</p>
                         </div>
@@ -187,7 +169,7 @@ header('location:login_form.php');
                             <div class="wrap-icon icon-1">
 
                             </div>
-                            <img class="circular--square" src="images/pro.jpg" />
+                            <img class="circular--square" src="assets/img/pro.jpg" />
                             <h3 style="color: aliceblue;">Manage your profile</h3>
                             <p>Buy and sell digital currency.</p>
                         </div>
@@ -197,7 +179,7 @@ header('location:login_form.php');
                             <div class="wrap-icon icon-1">
 
                             </div>
-                            <img class="circular--square" src="images/dollor1.jpg" />
+                            <img class="circular--square" src="assets/img/dollor1.jpg" />
                             <h3 style="color: aliceblue;">Virtual coins</h3>
                             <p>Predict and get chance to double your coins.</p>
                         </div>
@@ -212,13 +194,14 @@ header('location:login_form.php');
             <div class="container">
                 <div class="row justify-content-center text-center mb-5" data-aos="fade">
                     <div class="col-md-6 mb-5">
-                        <img src="images/bitcoins.jpg" alt="Image" class="img-fluid">
+                        <img src="assets/img/bitcoins.jpg" alt="Image" class="img-fluid">
                     </div>
                 </div>
 
 
 
-                <p style="color: aliceblue; text-align:center; font-size: 200%; font-family: MinecrafterReg"><b>About Cryptocurrencies</b></p>
+                <p style="color: aliceblue; text-align:center; font-size: 200%; font-family: MinecrafterReg"><b>About
+                        Cryptocurrencies</b></p>
                 <h3 style="color: aliceblue;
                 text-align: center;
                 font-family: Verdana;

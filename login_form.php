@@ -48,7 +48,7 @@ if(isset($_POST['submit'])){
    <title>login form</title>
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="assets/css/styleforlogin.css">
   
 </head>
 <body>
@@ -67,7 +67,7 @@ if(isset($_POST['submit'])){
       <input type="email" name="email" required placeholder="enter your email">
       <input type="password" name="password" required placeholder="enter your password">
       <input type="submit" name="submit" value="login now" class="form-btn">
-      <p>don't have an account? <a href="register_form.php">register now</a></p>
+      <p>Don't have an account? <a href="register_form.php">register now</a></p>
    </form>
 
 </div>
