@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-  <link href="assets/img/logo1.png.jpg" rel="icon">
-  <link href="assets/img/logo1.png.jpg" rel="apple-touch-icon">
+    <link href="assets/img/logo1.png.jpg" rel="icon">
+    <link href="assets/img/logo1.png.jpg" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -26,7 +26,7 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/styleformarket.css" rel="stylesheet">
 
 
 </head>
@@ -100,347 +100,6 @@
 
         </div>
     </header><!-- End Header -->
-    <style>
-        /* General Styles */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #181818;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        /* Header Styles */
-        h1 {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-
-        /* Market Update Styles */
-        .title-wrapper {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .h2.section-title {
-            margin: 0;
-        }
-
-        .btn-link {
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
-        .btn-link:hover {
-            background-color: #0056b3;
-        }
-
-        .market-tab {
-            /*margin-top: 20px;*/
-            background-color: #292929;
-            border-radius: 10px;
-        }
-
-        .tab-nav {
-            display: flex;
-            justify-content: center;
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .tab-btn {
-            padding: 10px 20px;
-            font-size: 16px;
-            background-color: #181818;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        .tab-btn.active {
-            background-color: #007bff;
-        }
-
-        .tab-btn:not(.active):hover {
-            background-color: #0056b3;
-        }
-
-        .market-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        .market-table th,
-        .market-table td {
-            padding: 10px;
-            border-bottom: 1px solid #444;
-            color: #fff;
-        }
-
-        .market-table th {
-            background-color: #181818;
-        }
-
-        .table-data img {
-            vertical-align: middle;
-            margin-right: 10px;
-        }
-
-
-        .wrapper {
-            display: flex;
-            align-items: center;
-        }
-
-        .coin-info {
-            margin-left: 8px;
-            display: flex;
-            align-items: center;
-        }
-
-        .coin-name {
-            margin-right: 4px;
-            font-weight: bold;
-            /* Added font-weight to make the Crypto name bolder */
-            font-size: 18px;
-            color: aliceblue;
-            text-decoration: none;
-        }
-
-        .span {
-            font-size: 12px;
-            color: gray;
-        }
-
-
-        .coin-name span {
-            font-size: 14px;
-            color: #ccc;
-            margin-left: 5px;
-        }
-
-        .chart {
-            display: block;
-            margin: 0 auto;
-        }
-
-        .btn-outline {
-            padding: 10px 20px;
-            background-color: transparent;
-            color: #007bff;
-            border: 1px solid #007bff;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        .btn-outline:hover {
-            background-color: #007bff;
-            color: #fff;
-        }
-
-        .add-to-fav {
-            background-color: transparent;
-            border: none;
-            cursor: pointer;
-        }
-
-        .icon-outline,
-        .icon-fill {
-            font-size: 24px;
-            color: #ccc;
-        }
-
-        .icon-fill {
-            display: none;
-        }
-
-        .add-to-fav:hover .icon-outline {
-            display: none;
-        }
-
-        .add-to-fav:hover .icon-fill {
-            display: block;
-        }
-
-        /* ... (Other CSS styles remain unchanged) */
-
-        .market-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        .table-heading {
-            font-weight: bold;
-            font-size: 18px;
-            /* Adjust the font size for table headings */
-            padding: 10px;
-            text-align: left;
-            border-bottom: 2px solid #ddd;
-        }
-
-        .table-data {
-            font-size: 16px;
-            /* Adjust the font size for table data */
-            padding: 10px;
-            text-align: left;
-        }
-
-        /* ... (Other CSS styles remain unchanged) */
-
-        .market-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        .table-heading {
-            font-weight: bold;
-            font-size: 16px;
-            /* Adjust the font size for table headings */
-            padding: 10px;
-            text-align: left;
-            border-bottom: 2px solid #ddd;
-        }
-
-        .table-data {
-            font-size: 14px;
-            /* Adjust the font size for table data */
-            padding: 10px;
-            text-align: left;
-        }
-
-        .table-data.last-price,
-        .table-data.market-cap,
-        .table-data.last-7-days {
-            font-weight: bold;
-
-            font-size: 18px;
-
-        }
-
-        .last-7-days {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .last-7-days-img {
-            margin-top: 4px;
-            margin-left: -70px;
-        }
-
-        .last-7-days-text {
-            font-size: 12px;
-            color: transparent;
-        }
-
-
-
-        .table-data.last-update {
-            font-size: 16px;
-
-        }
-
-        .table-data.last-update.green {
-            color: lightgreen;
-        }
-
-        .table-data.last-update.red {
-            color: #EE4B2B;
-        }
-
-
-        .table-data.last-update span {
-            display: inline-block;
-            font-weight: bold;
-
-            transform: scale(1.24);
-        }
-
-        .table-data rank.row {
-            font-size: 18px;
-        }
-
-
-
-        /* Crypto Game */
-        .game {
-            padding: 30px 0;
-            text-align: center;
-        }
-
-        .crypto-game {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .crypto-list {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-bottom: 20px;
-        }
-
-        .crypto-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 5px;
-            cursor: pointer;
-            border: 2px solid transparent;
-            border-radius: 10px;
-            padding: 10px;
-            transition: all 0.3s ease;
-
-        }
-
-        .crypto-item:hover {
-            background-color: #f0f0f0;
-            color: #181818;
-        }
-
-        .crypto-img {
-            width: 40px;
-            height: 40px;
-        }
-
-        .crypto-name {
-            font-size: 18px;
-            font-weight: bold;
-            color: azure;
-        }
-
-        .crypto-game {
-            margin-top: 80px;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-
-        }
-
-        .container2 {
-
-            margin-top: 80px;
-        }
-    </style>
 
 
 
@@ -517,7 +176,7 @@
                         </tr>
                     </thead>
                     <tbody class="table-body">
-                         <!-- Bitcoin 1: Bitcoin (BTC) -->
+                        <!-- Bitcoin 1: Bitcoin (BTC) -->
                         <tr class="table-row">
                             <td class="table-data">
                                 <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
@@ -773,15 +432,15 @@
     <script src="assets/js/jsformarket.js"></script>
 
 
-    <!-- ======= Footer ======= -->
     <footer class="footer" role="contentinfo">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-4 mb-md-0">
-                    <h3>About SoftLand</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius ea delectus pariatur, numquam
-                        aperiam
-                        dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi.</p>
+                    <h3 style="color: aliceblue;">About Coin Fusion</h3>
+                    <p style="color: aliceblue;">Cryptocurrency is a type of digital or virtual currency that uses
+                        cryptography
+                        for secure financial transactions, control of new units, and verification
+                        of the transfer of assets.</p>
                     <p class="social">
                         <a href="#"><span class="bi bi-twitter"></span></a>
                         <a href="#"><span class="bi bi-facebook"></span></a>
@@ -792,40 +451,34 @@
                 <div class="col-md-7 ms-auto">
                     <div class="row site-section pt-0">
                         <div class="col-md-4 mb-4 mb-md-0">
-                            <h3>Navigation</h3>
+
                             <ul class="list-unstyled">
-                                <li><a href="#">Pricing</a></li>
-                                <li><a href="#">Features</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="user_page.html">Home</a></li>
+                                <li><a href="howtoplay.html">How to play</a></li>
+                                <li><a href="game.html">Game</a></li>
+
                             </ul>
                         </div>
                         <div class="col-md-4 mb-4 mb-md-0">
-                            <h3>Services</h3>
+
                             <ul class="list-unstyled">
-                                <li><a href="#">Team</a></li>
-                                <li><a href="#">Collaboration</a></li>
-                                <li><a href="#">Todos</a></li>
-                                <li><a href="#">Events</a></li>
+                                <li><a href="team.html">Team</a></li>
+                                <li><a href="contact.html">Leadboard</a></li>
+                                <li><a href="contact.html">Feedback</a></li>
+
                             </ul>
                         </div>
-                        <div class="col-md-4 mb-4 mb-md-0">
-                            <h3>Downloads</h3>
-                            <ul class="list-unstyled">
-                                <li><a href="#">Get from the App Store</a></li>
-                                <li><a href="#">Get from the Play Store</a></li>
-                            </ul>
-                        </div>
+
                     </div>
                 </div>
             </div>
 
             <div class="row justify-content-center text-center">
                 <div class="col-md-7">
-                    <p class="copyright">&copy; Copyright SoftLand. All Rights Reserved</p>
+                    <p class="copyright">&copy; Copyright Coin Fusion. All Rights Reserved</p>
                     <div class="credits">
 
-                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        Designed by <a href="team.html">Group F</a>
                     </div>
                 </div>
             </div>
